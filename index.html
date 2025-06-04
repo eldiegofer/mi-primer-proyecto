@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StoryCreator Cuentrix - Genera historias cautivadoras para plataformas de audio">
+    <meta name="keywords" content="generador de historias, cuentos, narrativa, storytelling, audio stories">
+    <meta property="og:title" content="StoryCreator Cuentrix">
+    <meta property="og:description" content="Genera historias cautivadoras para plataformas de audio">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StoryCreator Cuentrix">
+    <meta name="twitter:description" content="Genera historias cautivadoras para plataformas de audio">
+    <title>StoryCreator Cuentrix</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link href="styles/story.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="utils/protagonistGenerator.js"></script>
+    <script type="text/babel" src="components/StoryForm.js"></script>
+    <script type="text/babel" src="components/StoryDisplay.js"></script>
+    <script type="text/babel" src="components/LoadingSpinner.js"></script>
+    <script type="text/babel" src="components/StoryboardCreator.js"></script>
+    <script type="text/babel" src="utils/storyAgent.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+.form-input {
+    background: rgba(60, 60, 60, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    width: 100%;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #7c4dff;
+    outline: none;
+    background: rgba(70, 70, 70, 0.5);
+}
+
+.form-input::placeholder {
+    color: #888;
+}
+
+.form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5em;
+}
+
+.form-select option {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 12px;
+}
+
+.btn-primary {
+    background: #7c4dff;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: #6c3fff;
+    box-shadow: 0 0 0 2px rgba(124, 77, 255, 0.2);
+}
+
+.btn-primary:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
